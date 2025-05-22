@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>ddf00c79-9869-480e-b7ae-fc7c8df1b4c6</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.5" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.5" />
+      <PackageReference Include="Microsoft.SemanticKernel" Version="1.53.1" />
+    </ItemGroup>
+
+</Project>
